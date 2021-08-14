@@ -1,0 +1,99 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: burlywood;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.5;
+    border-left: 3px solid rgb(50, 121, 103);
+}
+
+.card-first-section {
+    display: flex;
+    gap: 15px;
+}
+
+.flex {
+    display: flex;
+    gap: 3px;
+}
+
+.card-image img {
+    width: 70px;
+    margin-top: 10px;
+}
+
+.snap {
+    color: rgb(77, 255, 210);
+}
+
+.new {
+    background-color: rgb(77, 255, 210);
+    border-radius: 15px;
+    padding: 5px;
+    width: 20%;
+    height: 40px;
+}
+
+.fea {
+    background-color: black;
+    color: white;
+    padding: 0 10px 0 10px;
+    border-radius: 15px;
+}
+
+.senior-h1 {
+    color: black;
+}
+
+.card-columu a {
+    text-decoration: none;
+    color: rgb(177, 165, 165);
+}
+
+.right-flex {
+    display: flex;
+    gap: 12px;
+    color: rgb(50, 121, 103);
+    justify-content: center;
+    align-items: center;
+}
+
+.front {
+    border: 1px solid rgb(199, 223, 217);
+    background-color: rgb(198, 219, 214);
+    padding: 0 5px 0 5px;
+    border-radius: 10px;
+}
+
+
+/* .flex {
+    display: flex;
+    gap: 10px;
+}
+
+.card-columu {
+    position: relative;
+    left: 80px;
+}
+
+.right-flex {
+    display: flex;
+    gap: 10px;
+} */
